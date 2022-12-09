@@ -1,0 +1,15 @@
+.site-logo {
+    max-width: 60px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar-brand {
+    padding: 0px;
+    margin: 0px;
+}
+
+.jumbotron {
+    background-image: url("images/jumbotron");
+    background-size: cover;
+}
