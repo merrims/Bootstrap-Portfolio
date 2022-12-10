@@ -10,6 +10,20 @@
 }
 
 .jumbotron {
-    background-image: url("images/jumbotron");
+    background: url("../images/jumbotron.jpg");
     background-size: cover;
+    background-position: center center;
+    height: 50vh;
+    margin: auto;
+    display: block;
+}
+
+.container {
+    background-color: rgba(0, 128, 128, .5);
+    margin: 0px;
+    max-width: 100%;
+}
+
+body {
+    margin: 0px;
 }
