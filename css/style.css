@@ -1,3 +1,11 @@
+:root {
+    --green: rgba(152,223,122,255);
+    --pink: rgb(255, 192, 203);
+    --green-light: rgba(152,223,122,.5);
+    --off-white: rgb(225,225,223);
+    --magenta: rgba(184,51,117,.9);
+}
+
 .site-logo {
     max-width: 60px;
     padding: 0px;
@@ -9,6 +17,11 @@
     margin: 0px;
 }
 
+.bg-light {
+    background-color: var(--pink) !important;
+}
+
+
 .jumbotron {
     background: url("../images/jumbotron.jpg");
     background-size: cover;
@@ -19,11 +32,47 @@
 }
 
 .container {
-    background-color: rgba(0, 128, 128, .5);
+    background-color: var(--magenta);
+    color: var(--off-white);
     margin: 0px;
     max-width: 100%;
+    text-align: center;
+}
+
+.section-title {
+    padding: 10px;
+    background:var(--green);
+    color: var(--off-white);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+
+.btn {
+    background-color: var(--green);
+    border: none;
+}
+
+.btn:hover {
+    background-color: var(--pink);
+    border: none;
+}
+
+.btn:focus, btn:active, btn:visited {
+    background-color: var(--green-light);
 }
 
 body {
-    margin: 0px;
+    background-color: var(--pink);
+}
+
+.cardContainer {
+    padding: 20px;
+}
+
+.card {
+    height: 100%;
 }
