@@ -76,3 +76,16 @@ body {
 .card {
     height: 100%;
 }
+
+.mr-3 {
+    max-width: 15%;
+}
+
+.list-unstyled {
+    background-color: var(--off-white);
+    padding: 20px;
+}
+
+.mt-0 {
+    color: var(--magenta);
+}
