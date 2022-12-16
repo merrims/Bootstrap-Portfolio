@@ -25,7 +25,7 @@
 .jumbotron {
     background: url("../images/jumbotron.jpg");
     background-size: cover;
-    background-position: center center;
+    background-position: center bottom;
     height: 50vh;
     margin: auto;
     display: block;
@@ -59,6 +59,7 @@
 .btn:hover {
     background-color: var(--pink);
     border: none;
+    box-shadow: 0 2px 5px 0 var(--off-white), 0 2px 5px 0 var(--off-white);
 }
 
 .btn:focus, btn:active, btn:visited {
