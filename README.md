@@ -6,6 +6,8 @@ This website is a portfolio of my work created by editing bootstrap components f
 
 I learned a lot about customising CSS to make it your own during this project and solidified my understanding of key HTML concepts such as parent divs and flexbox.
 
+The project is deployed to GitHub pages, at: https://merrims.github.io/Bootstrap-Portfolio/
+
 ## Usage
 
 The site displays a navigation bar with a jumbotron introducing myself and the portfolio:
