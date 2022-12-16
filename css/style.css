@@ -1,13 +1,13 @@
 :root {
     --green: rgba(152,223,122,255);
-    --pink: rgb(255, 192, 203);
-    --green-light: rgba(152,223,122,.5);
+    --pink: #ffc0cb;
+    --green-light: #98df7a80;
     --off-white: rgb(225,225,223);
     --magenta: rgba(184,51,117,.9);
 }
 
 .site-logo {
-    max-width: 60px;
+    max-width: 75px;
     padding: 0px;
     margin: 0px;
 }
@@ -89,3 +89,40 @@ body {
 .mt-0 {
     color: var(--magenta);
 }
+
+/* advice on css for list items from https://css.maxdesign.com.au/listutorial/master.htm */
+.contact {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+    margin-left: 1em;
+}
+
+.contact li {
+    background-repeat: no-repeat;
+    padding-left: 2em;
+    padding-right: 2em;
+    display: inline-block;
+}
+
+.github {
+    background-image: url(../images/github.png);
+}
+
+.linkedin {
+    background-image: url(../images/linkedin.png)
+}
+
+.contact-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.email {
+    background-image: url(../images/email.png)
+}
+
+.slack {margin-top: 25px;}
